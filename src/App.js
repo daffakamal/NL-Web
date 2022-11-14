@@ -8,7 +8,7 @@ import LandingPage from './components/Home/LandingPage.js';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="bg-red-NL">
       <Navbar />
       <div className="content">
         <Switch>
