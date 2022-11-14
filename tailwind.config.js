@@ -16,7 +16,8 @@ module.exports = {
         'red-NL' : '#DA4949',
         'black-NL' : '#434343',
         'pink-NL' : '#FE8F75',
-        'grey-NL' : '#D9D9D9'
+        'grey-NL' : '#D9D9D9',
+        'white-NL' : "#FDFDFD"
       },
       boxShadow: {
         '3xl': '0 15px 60px  rgba(0, 0, 0, 0.5)',
