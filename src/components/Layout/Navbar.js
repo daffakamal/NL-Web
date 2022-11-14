@@ -1,4 +1,4 @@
-import logo from './image/nightLogin.png';
+import logo from '../../assets/images/nightLogin.png';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     const navButtons = (title, link) => {
