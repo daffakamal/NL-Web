@@ -42,23 +42,27 @@ const AboutPage = () => {
                 <p className="text-white text-2xl mt-7 mb-10">Introducing our incredible team from different field and interest</p>
                 <div className="box">
                     <div className="presiden">
-                        {boxProfile("Luffy","trenggalek")}
-                        {boxProfile("zoro","trenggalek")}
+                        {boxProfile("President","Samatha Marhaendra P.")}
+                        {boxProfile("vice","Christian Ale P")}
                     </div>
                     <div className="vice">
-                    {boxProfile("nami","trenggalek")}
-                    {boxProfile("usopp","trenggalek")}
-                    {boxProfile("sanji","trenggalek")}
+                        {boxProfile("Head","Sagara Aldavy M.N.S")}
+                        {boxProfile("Member","Khairun Nisa'Z")}
+                        {boxProfile("Member","Byan Cahaya R. A")}
                     </div>
                     <div className="vice">
-                    {boxProfile("chopper","trenggalek")}
-                    {boxProfile("robin","trenggalek")}
-                    {boxProfile("franky","trenggalek")}
-                    </div>
+                        {boxProfile("Head","Arifah Amelia T.")}
+                        {boxProfile("Member","Fajar Rizki W")}
+                        {boxProfile("Member","M Daniyal Kautsar")}
+                        </div>
                     <div className="vice">
-                    {boxProfile("brook","trenggalek")}
-                    {boxProfile("jinbe","trenggalek")}
-                    {boxProfile("sunny","trenggalek")}
+                        {boxProfile("Head","Gerrit Ezra Yudi K.")}
+                        {boxProfile("Member","Talitha Andani")}
+                        {boxProfile("Member","Dhiyaa Amalia P.")}
+                        {boxProfile("Member","Anisa Nur Rahmanlina")}
+                    </div>
+                    <div className="w-56 h-24 bg-white ml-60 my-32 shadow-[10px_10px_0_5px_#DA4949,15px_15px_0_10px_#FE8F75]">
+                        Management Team
                     </div>
                 </div>
             </div>
