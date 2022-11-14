@@ -5,10 +5,10 @@ const LandingPage = () => {
         <div className="w-full h-screen grid justify-items-center content-center">
             <img
                 src={LogoNL}
-                className="w-[207px]"
+                className="w-[300px]"
                 alt="Logo Night Login"
             />
-            <h1 className="text-center text-white text-[48px] pt-[49px]">
+            <h1 className="font-poppinsBold text-center text-white text-[55px] pt-[10px]">
                 Night Login UGM
             </h1>
         </div>

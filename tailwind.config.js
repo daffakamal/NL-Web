@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppinsLight: ["PoppinsLight"],
+        poppinsRegular: ["PoppinsRegular"],
+        poppinsMedium: ["PoppinsMedium"],
+        poppinsSemi: ["PoppinsSemi"],
+        poppinsBold: ["PoppinsBold"],
+      },
       colors: {
         'red-NL' : '#DA4949',
         'black-NL' : '#434343',
