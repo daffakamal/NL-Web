@@ -1,4 +1,4 @@
-import Logo from '../../assets/images/About/long-1.png';
+import Logo from '../../assets/images/About/long.png';
 import HappyBunchL from '../../assets/images/About/HappyBunch-left.png';
 import HappyBunchR from '../../assets/images/About/HappyBunch-right.png';
 import BoxProfile from './BoxProfile.js';
