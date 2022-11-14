@@ -2,7 +2,7 @@ import './App.css';
 import  { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutPage from './components/About/AboutPage.js';
 import Navbar from './components/Layout/Navbar.js';
-import Home from './components/Home/Home.js';
+import LandingPage from './components/Home/LandingPage.js';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <div className="content">
         <Switch>
           <Route path="/home">
-            <Home />
+            <LandingPage />
           </Route>
           <Route path="/about">
             <AboutPage />
