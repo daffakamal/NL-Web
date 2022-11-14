@@ -29,7 +29,7 @@ const AboutPage = () => {
                     <h2 className=" text-black-NL text-4.5xl  font-bold pt-10 my-1">#BeginToGain</h2>
                     <p className="text-black-NL text-xl mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque veniam odio iure animi quis, architecto cum molestias! Excepturi, repellat fuga neque possimus sapiente eos ipsum unde a ab aut provident rem temporibus, laborum nihil asperiores aspernatur enim beatae, placeat eaque praesentium perspiciatis! Quasi veniam voluptatibus tempore nihil hic iste fugiat!</p>
                 </div>
-                <div className="h-300 mt-40 bg-black-NL rounded-t-180px">
+                <div className="h-[250rem] mt-40 bg-black-NL rounded-t-180px">
                     <h2 className="text-white text-4.5xl font-bold pt-32">
                         Meet The Team
                     </h2>
@@ -39,28 +39,39 @@ const AboutPage = () => {
                             <BoxProfile title ="President" name="Samatha Marhaendra P." />
                             <BoxProfile title ="Vice" name="Christian Ale P." />
                         </div>
-                        <div className="w-96 bg-white ml-60 my-32 shadow-[7px_5px_0_1px_#DA4949,14px_10px_0_1px_#FE8F75,14px_10px_0_5px_black] border-solid border-black border-4">
-                            <p className="my-5 font-bold text-[2.2rem] text-black-NL ">Management Team</p>
+                        <div className="w-80 bg-white ml-40 my-32 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
+                            <p className="my-3 font-bold text-[1.8rem] text-black-NL ">Management Team</p>
+                        </div>
+                        <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
+                            <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl "><h3 className="-mt-4 text-white font-semibold text-[1.4rem] ">Public Relation Team</h3></div>
                         </div>
                         <div className="vice">
                             <BoxProfile title ="Head" name="Sagara Aldavy M.N.S" />
                             <BoxProfile title ="Member" name="Khairun Nisa’ Z." />
                             <BoxProfile title ="Member" name="Byan Cahaya R. A" />
                         </div>
+                        <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
+                            <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl "><h3 className="-mt-4 text-white font-semibold text-[1.4rem] ">Creative Media Team</h3></div>
+                        </div>
                         <div className="vice">
                             <BoxProfile title ="Head" name="Arifah Amelia T." />
                             <BoxProfile title ="Member" name="Fajar Rizki W." />
                             <BoxProfile title ="Member" name="M. Daniyal Kautsar" />
                         </div>
+                        <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
+                            <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl "><h3 className="-mt-4 text-white font-semibold text-[1.4rem] ">Administration Team</h3></div>
+                        </div>
                         <div className="vice">
                             <BoxProfile title ="Head" name="Gerrit Ezra Yudi K." />
                             <BoxProfile title ="Member" name="Talitha Andani" />
                             <BoxProfile title ="Member" name="Dhiyaa Amalia P" />
-                            <BoxProfile title ="Member" name="Anisa Nur Rahmalina" />
+                            <BoxProfile title ="Member" name="Anisa Nur Rahmalina"/>
+                        </div>
+                        <div className="w-80 bg-white ml-40 mt-20 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
+                            <p className="my-3 font-bold text-[1.8rem] text-black-NL ">Community Team</p>
                         </div>
                         
-                        <div className="flex flex-row"></div>
-                        <div className="nama"></div>
+                        
                     </div>
                 </div>
             </div>
