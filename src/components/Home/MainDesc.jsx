@@ -1,5 +1,11 @@
+import { useState } from "react";
+import { komunitasList } from "../data/dataKomunitas";
+
+const assetsKomunitas = "/assets/images/Home";
 
 const MainDesc = () => {
+    const [list] = useState(komunitasList);
+
     return (
         <div className="w-full bg-pink-NL relative grid justify-items-center content-center rounded-5xl mt-10">
             <h1 className="font-poppinsBold text-black-NL text-[55px] py-[90px]">
@@ -16,6 +22,28 @@ const MainDesc = () => {
                     <h1 className="font-poppinsBold text-red-NL text-[40px] pt-[161px] pb-[70px]">
                         Our Community
                     </h1>
+                    <div className="flex justify-center pb-20">
+                        <div className="grid grid-cols-2 gap-x-[150px] gap-y-[99px]">
+                            {list.map((item) => (
+                                <div className="grid justify-items-center bg-red-NL rounded-[38px] shadow-home-card px-[104px] py-[43px] gap-y-5">
+                                    <img
+                                        className="w-[270px] pointer-events-none"
+                                        src={`${assetsKomunitas}/Logo-${item.title}.png`}
+                                        alt={`Logo ${item.title}`}
+                                    />
+                                    <p className="font-poppinsBold uppercase text-center text-[32px] text-white-NL">
+                                        {item.title}
+                                    </p>
+                                    <a 
+                                        href="#!"
+                                        className="font-poppinsSemi text-black-NL rounded-[42px] bg-white-NL px-[31px] py-[11px] cursor-pointer"
+                                    >
+                                        {item.textButton}
+                                    </a>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -22,7 +22,8 @@ module.exports = {
       boxShadow: {
         '3xl': '0 15px 60px  rgba(0, 0, 0, 0.5)',
         'custom': '10px 10px 15px rgba(0, 0, 0, 0.4)',
-        'custom2': '11px 11px  #FE8F75, 11px 11px 0 3px black'
+        'custom2': '11px 11px  #FE8F75, 11px 11px 0 3px black',
+        'home-card': '2.84249px 5.68498px 25.4084px rgba(0, 0, 0, 0.25)',
       },
       height: {
         '100': '25em',
