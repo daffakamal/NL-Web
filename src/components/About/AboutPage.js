@@ -9,7 +9,7 @@ const AboutPage = () => {
     return (
         <div className="AboutPage">
 
-            <div className="home h-200 bg-red-NL">
+            <div className="home h-200 text-center">
                 <div className="py-24 flex flex-row justify-center h-100">
                     <img src={Logo} alt="logo" />
                 </div>
