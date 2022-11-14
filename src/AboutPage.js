@@ -1,16 +1,10 @@
 import Logo from './image/long-1.png';
 import HappyBunchL from './image/HappyBunch-left.png';
 import HappyBunchR from './image/HappyBunch-right.png';
+import BoxProfile from './BoxProfile.js';
 
 const AboutPage = () => {
 
-    const boxProfile = (title, name) => {
-        return <div className="w-80 h-96 inline-block my-6 mx-16">
-            <div className="w-72 h-76 bg-grey-NL rounded-4xl border-solid border-black border-4 shadow-custom2"></div>
-            <p className="mt-8 text-white text-3xl font-bold">{title}</p>
-            <p className="my-2 text-white text-xl font-semibold">{name}</p>
-        </div>
-    }
 
     return (
         <div className="AboutPage">
@@ -42,29 +36,31 @@ const AboutPage = () => {
                     <p className="text-white text-2xl mt-7 mb-10">Introducing our incredible team from different field and interest</p>
                     <div className="box">
                         <div className="presiden">
-                            {boxProfile("President", "Samatha Marhaendra P.")}
-                            {boxProfile("vice", "Christian Ale P")}
-                        </div>
-                        <div className="vice">
-                            {boxProfile("Head", "Sagara Aldavy M.N.S")}
-                            {boxProfile("Member", "Khairun Nisa'Z")}
-                            {boxProfile("Member", "Byan Cahaya R. A")}
-                        </div>
-                        <div className="vice">
-                            {boxProfile("Head", "Arifah Amelia T.")}
-                            {boxProfile("Member", "Fajar Rizki W")}
-                            {boxProfile("Member", "M Daniyal Kautsar")}
-                        </div>
-                        <div className="vice">
-                            {boxProfile("Head", "Gerrit Ezra Yudi K.")}
-                            {boxProfile("Member", "Talitha Andani")}
-                            {boxProfile("Member", "Dhiyaa Amalia P.")}
-                            {boxProfile("Member", "Anisa Nur Rahmanlina")}
+                            <BoxProfile title ="President" name="Samatha Marhaendra P." />
+                            <BoxProfile title ="Vice" name="Christian Ale P." />
                         </div>
                         <div className="w-96 bg-white ml-60 my-32 shadow-[7px_5px_0_1px_#DA4949,14px_10px_0_1px_#FE8F75,14px_10px_0_5px_black] border-solid border-black border-4">
                             <p className="my-5 font-bold text-[2.2rem] text-black-NL ">Management Team</p>
                         </div>
+                        <div className="vice">
+                            <BoxProfile title ="Head" name="Sagara Aldavy M.N.S" />
+                            <BoxProfile title ="Member" name="Khairun Nisa’ Z." />
+                            <BoxProfile title ="Member" name="Byan Cahaya R. A" />
+                        </div>
+                        <div className="vice">
+                            <BoxProfile title ="Head" name="Arifah Amelia T." />
+                            <BoxProfile title ="Member" name="Fajar Rizki W." />
+                            <BoxProfile title ="Member" name="M. Daniyal Kautsar" />
+                        </div>
+                        <div className="vice">
+                            <BoxProfile title ="Head" name="Gerrit Ezra Yudi K." />
+                            <BoxProfile title ="Member" name="Talitha Andani" />
+                            <BoxProfile title ="Member" name="Dhiyaa Amalia P" />
+                            <BoxProfile title ="Member" name="Anisa Nur Rahmalina" />
+                        </div>
+                        
                         <div className="flex flex-row"></div>
+                        <div className="nama"></div>
                     </div>
                 </div>
             </div>
