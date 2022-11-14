@@ -3,6 +3,7 @@ import  { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutPage from './components/About/AboutPage.js';
 import Navbar from './components/Layout/Navbar.js';
 import LandingPage from './components/Home/LandingPage.js';
+import MainDesc from './components/Home/MainDesc';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path="/home">
             <LandingPage />
+            <MainDesc />
           </Route>
           <Route path="/about">
             <AboutPage />

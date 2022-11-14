@@ -36,6 +36,7 @@ module.exports = {
         '10xl': '65px',
         '180px': '180px',
         '4xl': '2rem',
+        '5xl': '151px 151px 0px 0px',
       }
     },
   },
