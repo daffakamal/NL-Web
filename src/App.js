@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <div className="content">
         <Switch>
-          <Route path="/home">
+          <Route exact path="/">
             <LandingPage />
             <MainDesc />
           </Route>

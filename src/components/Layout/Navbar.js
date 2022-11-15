@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="inline">Night Login</div>
                 </div>
             <div className="flex-1 flex max-w-xl font-semibold text-xl my-6 text-white">
-                {navButtons("Home", "/home")}
+                {navButtons("Home", "/")}
                 {navButtons("About", "/about")}
                 {navButtons("Event", "https://google.com")}
                 {navButtons("Community", "https://google.com")}
