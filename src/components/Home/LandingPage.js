@@ -14,7 +14,7 @@ const LandingPage = () => {
             </h1>
             <a 
                 href="#MainDesc"
-                className="absolute mx-auto bottom-8 cursor-pointer"
+                className="absolute mx-auto bottom-8 cursor-pointer animate-bounce"
             >
                 <ChevronDownIcon className="w-12 lg:w-14 text-white" />
             </a>
