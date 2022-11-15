@@ -13,8 +13,8 @@ const Navbar = () => {
             <div className="flex-1 flex max-w-xl font-semibold text-xl my-6 text-white">
                 {navButtons("Home", "/")}
                 {navButtons("About", "/about")}
-                {navButtons("Event", "https://google.com")}
-                {navButtons("Community", "https://google.com")}
+                {navButtons("Event", "")}
+                {navButtons("Community", "")}
             </div>
         </div>
      );
