@@ -4,6 +4,7 @@ import AboutPage from './components/About/AboutPage.js';
 import Navbar from './components/Layout/Navbar.js';
 import LandingPage from './components/Home/LandingPage.js';
 import MainDesc from './components/Home/MainDesc';
+import Events from './components/Home/Events';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/">
             <LandingPage />
             <MainDesc />
+            <Events />
           </Route>
           <Route path="/about">
             <AboutPage />
