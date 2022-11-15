@@ -31,3 +31,7 @@
     src: url("../public/fonts/Poppins-Bold.ttf");
     font-display: swap;
 }
+
+html{
+    scroll-behavior: smooth
+}
