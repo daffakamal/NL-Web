@@ -11,7 +11,7 @@ const AboutPage = () => {
 
             <div className="home h-200 text-center">
                 <div className="py-24 flex flex-row justify-center h-100">
-                    <img src={Logo} alt="logo" />
+                    <img className="max-w-[60%] h-auto" src={Logo} alt="logo" />
                 </div>
                 <div className="about">
                     <h2 className="text-white text-4.5xl  font-bold">
