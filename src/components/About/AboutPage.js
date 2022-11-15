@@ -7,14 +7,16 @@ import LogoNUXC from "../../assets/images/Home/Logo-NUXC.png";
 import LogoNWDC from "../../assets/images/Home/Logo-NWDC.png";
 import HappyBunchL from "../../assets/images/About/HappyBunch-left.png";
 import HappyBunchR from "../../assets/images/About/HappyBunch-right.png";
+import HappyBunch from "../../assets/images/About/HappyBunch.png";
+import Drawkit from "../../assets/images/About/Drawkit.png";
 import BoxProfile from "./BoxProfile.js";
 import { useState } from "react";
 
 const AboutPage = () => {
   const [activeButton, setActiveButton] = useState("NADC");
-  const [activeLogo,setActiveLogo] = useState(LogoNADC);
-  const [activeFirstnameLogo,setActiveFirstnameLogo] = useState("Aplication");
-  const [activeLastnameLogo,setActiveLastnameLogo] = useState("Development");
+  const [activeLogo, setActiveLogo] = useState(LogoNADC);
+  const [activeFirstnameLogo, setActiveFirstnameLogo] = useState("Aplication");
+  const [activeLastnameLogo, setActiveLastnameLogo] = useState("Development");
   const [activeTitle, setActiveTitle] = useState("Head");
   const [activeName, setActiveName] = useState("Gerrit");
   const [activeViceTitle, setActiveViceTitle] = useState("Head");
@@ -63,7 +65,7 @@ const AboutPage = () => {
             voluptatibus tempore nihil hic iste fugiat!
           </p>
         </div>
-        <div className="h-[300rem] mt-40 bg-black-NL rounded-t-180px">
+        <div className="h-[280rem] mt-40 bg-black-NL rounded-t-180px">
           <h2 className="text-white text-4.5xl font-bold pt-32">
             Meet The Team
           </h2>
@@ -193,7 +195,7 @@ const AboutPage = () => {
                   setViceActiveName("Novaldy Pratama");
                 }}
                 className={`button ${
-                  activeButton === "NLXC"
+                  activeButton === "NLNC"
                     ? "py-3 px-8 mx-5 text-xl rounded-[2.5rem] bg-white text-red-NL"
                     : "py-3 px-8 mx-5 text-xl rounded-[2.5rem] bg-red-NL text-white"
                 }`}
@@ -239,12 +241,14 @@ const AboutPage = () => {
                 NWDC
               </button>
             </div>
-            <div className="">
+            {/* Community box */}
+            <div>
               <div className="flex flex-row justify-center my-10">
                 <img src={activeLogo} alt="Logo" className=" px-14 w-[25%]" />
                 <div className="py-10 bg-red-NL w-1"> </div>
                 <div className="py-5 px-14 inline break-word text-white font-semibold text-3xl">
-                  Night Login {activeFirstnameLogo} <br /> {activeLastnameLogo} Community
+                  Night Login {activeFirstnameLogo} <br /> {activeLastnameLogo}{" "}
+                  Community
                 </div>
               </div>
               <div className="box">
@@ -252,6 +256,14 @@ const AboutPage = () => {
                 <BoxProfile title={activeViceTitle} name={activeViceName} />
               </div>
             </div>
+            <div className="flex flex-row justify-center h-[45rem] bg-pink-NL mt-32 rounded-t-180px py-28">
+              <div className="py-44 mr-16">
+                <h2 className="text-white font-bold text-[2.5rem] text-start">Do you want to be part of<br/> Night Login?</h2>
+                <p className="text-white font-semibold text-[2rem] text-start">wait fot further information</p>
+              </div>
+              <img src={Drawkit} alt="animationPic" className="w-[42%]" />
+            </div>
+            <img src={HappyBunch} alt="" className="mt-[-17rem] w-64" />
           </div>
         </div>
       </div>
