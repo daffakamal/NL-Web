@@ -1,5 +1,5 @@
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
-import LogoNL from '../../assets/images/Home/Logo NL.png';
+import LogoNL from '../../assets/images/Logo NL.png';
 
 const LandingPage = () => {
     return (

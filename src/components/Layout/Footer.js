@@ -3,11 +3,7 @@ import { useState } from "react";
 import { EnvelopeIcon } from '@heroicons/react/24/solid';
 import { sosmedList } from "../data/dataSosmed";
 import logoNL from '../../assets/images/nightLogin.png';
-import iconLinkedIn from '../../assets/images/Layout/Linkedin.png';
-import iconInstagram from '../../assets/images/Layout/Instagram.png';
-import iconLine from '../../assets/images/Layout/Line.png';
-import iconYoutube from '../../assets/images/Layout/Youtube.png';
-import logoKMTETI from '../../assets/images/Layout/cropped-KMTETI-Full-Color-9 1.png';
+import logoKMTETI from '../../assets/images/cropped-KMTETI-Full-Color-9 1.png';
 
 const Footer = () => {
     const [list] = useState(sosmedList);
@@ -24,7 +20,7 @@ const Footer = () => {
     }
 
     return ( 
-        <div className="w-full h-full bg-black-NL px-[135px] py-[70px]">
+        <div className="w-full h-full bg-black-NL px-[135px] py-[70px] z-40">
             <div className="flex items-center text-white-NL gap-x-6">
                 <img
                     className="w-[51px]" 
@@ -49,7 +45,7 @@ const Footer = () => {
                             >
                                 <img
                                     src={item.src}
-                                    className="w-[25px]"
+                                    className="w-[26px]"
                                     alt={`${item.title} icon`}
                                 />
                             </a>

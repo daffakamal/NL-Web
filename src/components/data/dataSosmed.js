@@ -2,17 +2,17 @@ const sosmedList = [
     {
         title: "LinkedIn",
         link: "https://www.linkedin.com/company/night-login/",
-        src: "/Layout/Linkedin.png"
+        src: "/images/Layout/Linkedin.png"
     },
     {
         title: "Instagram",
         link: "https://www.instagram.com/nightlogin/",
-        src: "/Layout/Instagram.png"
+        src: "/images/Layout/Instagram.png"
     },
     {
         title: "Line",
         link: "http://line.me/",
-        src: "/Layout/Line.png"
+        src: "/images/Layout/Line.png"
     },
 ];
 
