@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { komunitasList } from "../data/dataKomunitas";
 
-const assetsKomunitas = "/assets/images/Home";
+const assetsKomunitas = "/Home";
 
 const MainDesc = () => {
     const [list] = useState(komunitasList);
