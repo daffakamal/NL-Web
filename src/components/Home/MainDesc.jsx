@@ -30,8 +30,9 @@ const MainDesc = () => {
                             {list.map((item) => (
                                 <div className="grid justify-items-center bg-red-NL rounded-[38px] shadow-home-card px-[104px] py-[43px] gap-y-5">
                                     <img
-                                        className="w-[270px] pointer-events-none"
                                         src={`${assetsKomunitas}/Logo-${item.title}.png`}
+                                        className="w-[270px] pointer-events-none"
+                                        loading="lazy"
                                         alt={`Logo ${item.title}`}
                                     />
                                     <p className="font-poppinsBold uppercase text-center text-[32px] text-white-NL">

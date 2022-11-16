@@ -25,6 +25,7 @@ const Footer = () => {
                 <img
                     className="w-[51px]" 
                     src={logoNL} 
+                    loading="lazy"
                     alt="Logo Night Login"
                 />
                 <h1 className="font-poppinsBold text-[30px]">
@@ -46,6 +47,7 @@ const Footer = () => {
                                 <img
                                     src={item.src}
                                     className="w-[26px]"
+                                    loading="lazy"
                                     alt={`${item.title} icon`}
                                 />
                             </a>
@@ -70,6 +72,7 @@ const Footer = () => {
                         <img
                             src={logoKMTETI}
                             className="w-[94px]"
+                            loading="lazy"
                             alt="Logo KMTETI"
                         />
                     </div>

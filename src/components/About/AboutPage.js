@@ -29,6 +29,7 @@ const AboutPage = () => {
           <img
             className="h-auto shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
             src={Logo}
+            loading="lazy"
             alt="logo"
           />
         </div>
@@ -49,8 +50,8 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="flex flex-row justify-between">
-          <img src={HappyBunchL} alt="myPicture" className="h-100" />
-          <img src={HappyBunchR} alt="myPicture" className="h-100" />
+          <img src={HappyBunchL} alt="myPicture" className="h-100" loading="lazy" />
+          <img src={HappyBunchR} alt="myPicture" className="h-100" loading="lazy" />
         </div>
         <div className="h-72 bg-pink-NL rounded-10xl mx-56 px-7 mt-0 shadow-custom shadow-grey">
           <h2 className=" text-black-NL text-4.5xl  font-bold pt-10 my-1">
@@ -261,9 +262,9 @@ const AboutPage = () => {
                 <h2 className="text-white font-bold text-[2.5rem] text-start">Do you want to be part of<br/> Night Login?</h2>
                 <p className="text-white font-semibold text-[2rem] text-start">wait fot further information</p>
               </div>
-              <img src={Drawkit} alt="animationPic" className="w-[42%]" />
+              <img src={Drawkit} alt="animationPic" className="w-[42%]" loading="lazy" />
             </div>
-            <img src={HappyBunch} alt="" className="mt-[-17rem] w-64" />
+            <img src={HappyBunch} alt="" className="mt-[-17rem] w-64" loading="lazy" />
           </div>
         </div>
       </div>
