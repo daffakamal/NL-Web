@@ -56,14 +56,16 @@ const Footer = () => {
                     <div className="grid">
                         <p className="font-poppinsMedium text-[20px]">
                             Quick Links :
+                            <div className="border-red-NL border-2"></div>
                         </p>
-                        {footerButtons ("About", "/about") }
+                        {footerButtons ("About", "/about")}
                         {footerButtons ("Event", "#!")}
                         {footerButtons ("Community", "#!")}
                     </div>
                     <div className="grid">
                         <p className="font-poppinsMedium text-[20px] pb-4">
                             Lorem ipsum :
+                            <div className="border-red-NL border-2"></div>
                         </p>
                         <img
                             src={logoKMTETI}
