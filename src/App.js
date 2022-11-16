@@ -6,6 +6,7 @@ import LandingPage from './components/Home/LandingPage.js';
 import MainDesc from './components/Home/MainDesc';
 import Events from './components/Home/Events';
 import Footer from './components/Layout/Footer';
+import Form from './components/Home/Form';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <LandingPage />
             <MainDesc />
             <Events />
+            <Form />
           </Route>
           <Route path="/about">
             <AboutPage />
