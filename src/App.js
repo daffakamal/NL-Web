@@ -5,6 +5,7 @@ import Navbar from './components/Layout/Navbar.js';
 import LandingPage from './components/Home/LandingPage.js';
 import MainDesc from './components/Home/MainDesc';
 import Events from './components/Home/Events';
+import Footer from './components/Layout/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
       </div>
     </Router>
     
