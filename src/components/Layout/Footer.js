@@ -32,9 +32,9 @@ const Footer = () => {
                     Night Login
                 </h1>
             </div>
-            <div className="flex flex-row justify-between text-white-NL">
-                <div className="grid max-w-xs xl:max-w-md 2xl:max-w-lg">
-                    <p className="font-poppinsLight text-base xl:text-[18px] py-5">
+            <div className="flex flex-col lg:flex-row justify-between text-white-NL">
+                <div className="grid lg:max-w-xs xl:max-w-md 2xl:max-w-lg">
+                    <p className="font-poppinsLight text-justify leading-relaxed text-base xl:text-[18px] py-5">
                         Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
                     </p>
                     <div className="flex gap-x-4">
@@ -54,7 +54,7 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <div className="flex gap-x-32 2xl:gap-x-48">
+                <div className="flex gap-x-32 2xl:gap-x-48 pt-10 lg:pt-0">
                     <div className="grid">
                         <p className="font-poppinsMedium text-base xl:text-[20px]">
                             Quick Links :
