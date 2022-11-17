@@ -24,8 +24,8 @@ const AboutPage = () => {
 
   return (
     <div className="AboutPage">
-      <div className="home text-center">
-        <div className="mt-14 py-24 flex flex-row justify-center h-80">
+      <div className="home pt-32 text-center">
+        <div className="py-24 flex flex-row justify-center h-80">
           <img
             className="h-auto shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
             src={Logo}

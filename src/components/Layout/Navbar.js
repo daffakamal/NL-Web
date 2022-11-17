@@ -5,12 +5,23 @@ const Navbar = () => {
         return <Link className=" mx-7" to={link}>{title}</Link>
     }
     return ( 
-        <div className="flex flex-row h-20 bg-red-NL shadow-3xl relative">
-            <div className="flex-1 flex font-bold text-white  text-2xl my-5 pl-40">
-                <img className="inline mr-4 " src={logo} alt="logo" />
-                <div className="inline">Night Login</div>
-                </div>
-            <div className="flex-1 flex max-w-xl font-semibold text-xl my-6 text-white">
+        <div className="w-full flex flex-row h-20 bg-red-NL shadow-2xl fixed z-40">
+            <div className="flex-1 flex items-center my-5 pl-40">
+                <a 
+                    href="/"
+                    className="flex items-center"
+                >
+                    <img 
+                        src={logo} 
+                        className="inline mr-4 w-[44px]" 
+                        alt="Logo Night Login" 
+                    />
+                    <h1 className="inline font-poppinsSemi text-2xl text-white">
+                        Night Login
+                    </h1>
+                </a>
+            </div>
+            <div className="flex-1 flex max-w-xl font-poppinsMedium text-lg my-6 text-white">
                 {navButtons("Home", "/")}
                 {navButtons("About", "/about")}
                 {navButtons("Event", "")}
