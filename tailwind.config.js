@@ -39,6 +39,8 @@ module.exports = {
         '180px': '180px',
         '4xl': '2rem',
         '5xl': '151px 151px 0px 0px',
+        '3.5xl': '120px 120px 0px 0px',
+        '3xl': '100px 100px 0px 0px',
       },
     },
   },

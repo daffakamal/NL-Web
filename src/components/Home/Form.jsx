@@ -1,6 +1,6 @@
 const Form = () => {
     return (
-        <div className="w-full bg-pink-NL rounded-5xl">
+        <div className="w-full bg-pink-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
             <div className="h-full relative grid justify-items-center content-center px-[344px] pb-36">
                 <h1 className="font-poppinsBold text-black-NL text-center text-[32px] pt-[130px] pb-[59px]">
                     Do you have any questions? <br/>

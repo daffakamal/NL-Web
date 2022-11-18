@@ -6,7 +6,7 @@ const Events = () => {
             id={"Events"}
             className="w-full bg-white-NL"
         >
-            <div className="h-full relative grid justify-items-center content-center bg-red-NL rounded-5xl pb-48">
+            <div className="h-full relative grid justify-items-center content-center bg-red-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl pb-48">
                 <h1 className="font-poppinsBold text-white-NL text-[40px] pt-[130px] pb-[70px]">
                     Our Events
                 </h1>

@@ -9,12 +9,12 @@ const MainDesc = () => {
     return (
         <div 
             id={"MainDesc"}
-            className="w-full bg-pink-NL relative grid justify-items-center content-center rounded-5xl mt-10"
+            className="w-full bg-pink-NL relative grid justify-items-center content-center rounded-3xl md:rounded-3.5xl xl:rounded-5xl mt-10"
         >
             <h1 className="font-poppinsBold text-black-NL text-[55px] py-[90px]">
                 #BeginToGain
             </h1>
-            <div className="w-full bg-white-NL relative rounded-5xl md:px-20 lg:px-[134px] pb-12 lg:pb-28">
+            <div className="w-full bg-white-NL relative rounded-3xl md:rounded-3.5xl xl:rounded-5xl md:px-20 lg:px-[134px] pb-12 lg:pb-28">
                 <div className="grid justify-items-center content-center mx-auto container">
                     <h1 className="font-poppinsBold text-red-NL text-[40px] pt-[90px] pb-[70px]">
                         About Night Login

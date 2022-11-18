@@ -24,8 +24,8 @@ const AboutPage = () => {
   const [activeViceName, setViceActiveName] = useState("Gerrit");
 
   return (
-    <div className="AboutPage">
-      <div className="home pt-32 text-center">
+    <div className="h-full">
+      <div className="pt-32 text-center">
         <div className="py-24 flex flex-row justify-center h-80">
           <img
             className="h-auto shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
@@ -34,7 +34,7 @@ const AboutPage = () => {
             alt="logo"
           />
         </div>
-        <div className="about">
+        <div className="w-full">
           <h2 className="text-white text-4.5xl  font-bold">
             About Night Login
           </h2>
@@ -55,7 +55,7 @@ const AboutPage = () => {
           <img src={HappyBunchR} alt="myPicture" className="h-100" loading="lazy" />
         </div>
         <div className="h-72 bg-pink-NL rounded-10xl mx-56 px-7 mt-0 shadow-custom shadow-grey">
-          <h2 className=" text-black-NL text-4.5xl  font-bold pt-10 my-1">
+          <h2 className="text-black-NL text-4.5xl  font-bold pt-10 my-1">
             #BeginToGain
           </h2>
           <p className="text-black-NL text-xl mt-3">
@@ -67,14 +67,14 @@ const AboutPage = () => {
             voluptatibus tempore nihil hic iste fugiat!
           </p>
         </div>
-        <div className="py-10 mt-40 bg-black-NL rounded-t-180px">
+        <div className="py-10 mt-40 bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
           <h2 className="text-white text-4.5xl font-bold pt-32">
             Meet The Team
           </h2>
           <p className="text-white text-2xl mt-7 mb-10">
             Introducing our incredible team from different field and interest
           </p>
-          <div className="box">
+          <div className="h-full">
             <div className="presiden">
               <BoxProfile title="President" name={NLAdministrator.leader.president} />
               <BoxProfile title="Vice" name={NLAdministrator.leader.vice} />
@@ -258,7 +258,7 @@ const AboutPage = () => {
                 <BoxProfile title={activeViceTitle} name={activeViceName} />
               </div>
             </div>
-            <div className="flex flex-row justify-center bg-pink-NL mt-32 rounded-t-180px py-28">
+            <div className="flex flex-row justify-center bg-pink-NL mt-32 rounded-3xl md:rounded-3.5xl xl:rounded-5xl py-28">
               <div className="py-44 mr-16">
                 <h2 className="text-white font-bold text-[2.5rem] text-start">Do you want to be part of<br/> Night Login?</h2>
                 <p className="text-white font-semibold text-[2rem] text-start">wait fot further information</p>
