@@ -66,7 +66,7 @@ const AboutPage = () => {
             voluptatibus tempore nihil hic iste fugiat!
           </p>
         </div>
-        <div className="h-[280rem] mt-40 bg-black-NL rounded-t-180px">
+        <div className="py-10 mt-40 bg-black-NL rounded-t-180px">
           <h2 className="text-white text-4.5xl font-bold pt-32">
             Meet The Team
           </h2>
@@ -257,7 +257,7 @@ const AboutPage = () => {
                 <BoxProfile title={activeViceTitle} name={activeViceName} />
               </div>
             </div>
-            <div className="flex flex-row justify-center h-[45rem] bg-pink-NL mt-32 rounded-t-180px py-28">
+            <div className="flex flex-row justify-center bg-pink-NL mt-32 rounded-t-180px py-28">
               <div className="py-44 mr-16">
                 <h2 className="text-white font-bold text-[2.5rem] text-start">Do you want to be part of<br/> Night Login?</h2>
                 <p className="text-white font-semibold text-[2rem] text-start">wait fot further information</p>
