@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
-import { EnvelopeIcon } from '@heroicons/react/24/solid';
 import { sosmedList } from "../data/dataSosmed";
 import logoNL from '../../assets/images/nightLogin.png';
 import logoKMTETI from '../../assets/images/cropped-KMTETI-Full-Color-9 1.png';
@@ -10,17 +9,17 @@ const Footer = () => {
 
     const footerButtons = (title, link) => {
         return (
-            <Link 
+            <a 
+                href={link}
                 className="font-poppinsRegular text-base xl:text-[20px]" 
-                to={link}
             >
                 {title}
-            </Link>
+            </a>
         )
     }
 
     return ( 
-        <div className="w-full h-full bg-black-NL px-[135px] py-[70px] z-40">
+        <div className="w-full h-full bg-black-NL px-[135px] pt-[70px] z-40">
             <div className="flex items-center text-white-NL gap-x-6">
                 <img
                     className="w-[45px] xl:w-[51px]" 
@@ -61,8 +60,8 @@ const Footer = () => {
                             <div className="border-red-NL border-2"></div>
                         </p>
                         {footerButtons ("About", "/about")}
-                        {footerButtons ("Event", "#!")}
-                        {footerButtons ("Community", "#!")}
+                        {footerButtons ("Event", "#Events")}
+                        {footerButtons ("Community", "#Community")}
                     </div>
                     <div className="grid">
                         <p className="font-poppinsMedium text-base xl:text-[20px] pb-4">
@@ -78,6 +77,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <p className="text-center font-poppinsLight text-sm text-white-NL pt-14 pb-5">
+                Copyright © 2022 Night Login UGM
+            </p>
         </div>
      );
 }

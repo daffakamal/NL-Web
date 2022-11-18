@@ -2,7 +2,10 @@ const styleButton = "items-center px-[26px] py-[3px] rounded-[58px] bg-white-NL 
 
 const Events = () => {
     return (
-        <div className="w-full bg-white-NL">
+        <div 
+            id={"Events"}
+            className="w-full bg-white-NL"
+        >
             <div className="h-full relative grid justify-items-center content-center bg-red-NL rounded-5xl pb-48">
                 <h1 className="font-poppinsBold text-white-NL text-[40px] pt-[130px] pb-[70px]">
                     Our Events

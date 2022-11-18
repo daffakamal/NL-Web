@@ -22,7 +22,10 @@ const MainDesc = () => {
                     <p className="font-poppinsRegular text-[24px] text-justify leading-[38px]">
                         Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang bergerak di bidang teknologi informasi. BSO ini merupakan wadah bagi mahasiswa DTETI yang memiliki minat di bidang IT untuk mengembangkan kemampuan, kreativitas, inovasi, dan memperluas wawasan terkait bidang-bidang IT.
                     </p>
-                    <h1 className="font-poppinsBold text-red-NL text-[40px] pt-[161px] pb-[70px]">
+                    <h1 
+                        id={"Community"}
+                        className="font-poppinsBold text-red-NL text-[40px] pt-[161px] pb-[70px]"
+                    >
                         Our Community
                     </h1>
                     <div className="flex justify-center pb-20">
