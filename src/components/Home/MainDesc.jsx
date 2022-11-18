@@ -14,7 +14,7 @@ const MainDesc = () => {
             <h1 className="font-poppinsBold text-black-NL text-[55px] py-[90px]">
                 #BeginToGain
             </h1>
-            <div className="w-full bg-white-NL relative rounded-5xl px-[134px]">
+            <div className="w-full bg-white-NL relative rounded-5xl md:px-20 lg:px-[134px]">
                 <div className="grid justify-items-center content-center mx-auto container">
                     <h1 className="font-poppinsBold text-red-NL text-[40px] pt-[90px] pb-[70px]">
                         About Night Login
@@ -29,21 +29,22 @@ const MainDesc = () => {
                         Our Community
                     </h1>
                     <div className="flex justify-center pb-20">
-                        <div className="grid grid-cols-2 gap-x-[150px] gap-y-[99px]">
+                        <div className="grid grid-cols-2 gap-x-[100px] xl:gap-x-[150px] gap-y-[99px]">
                             {list.map((item) => (
-                                <div className="grid justify-items-center bg-red-NL rounded-[38px] shadow-home-card px-[104px] py-[43px] gap-y-5">
+                                <div className="flex flex-col justify-center py-auto bg-red-NL rounded-[30px] lg:rounded-[38px] shadow-home-card px-12 xl:px-20 2xl:px-[104px] py-[31px] lg:py-[43px] gap-y-5">
                                     <img
                                         src={`${assetsKomunitas}/Logo-${item.title}.png`}
-                                        className="w-[270px] pointer-events-none"
+                                        className="pointer-events-none"
+                                        width={`${item.width}`}
                                         loading="lazy"
                                         alt={`Logo ${item.title}`}
                                     />
-                                    <p className="font-poppinsBold uppercase text-center text-[32px] text-white-NL">
+                                    <p className="font-poppinsBold uppercase text-center text-2xl lg:text-[32px] text-white-NL">
                                         {item.title}
                                     </p>
                                     <a 
                                         href="#!"
-                                        className="font-poppinsSemi text-black-NL rounded-[42px] bg-white-NL px-[31px] py-[11px] cursor-pointer"
+                                        className="mx-auto font-poppinsSemi text-sm lg:text-base text-black-NL text-center rounded-[25px] lg:rounded-[42px] bg-white-NL w-full xl:w-10/12 2xl:w-3/4 px-3 lg:px-[31px] py-2 lg:py-[11px] cursor-pointer"
                                     >
                                         {item.textButton}
                                     </a>
