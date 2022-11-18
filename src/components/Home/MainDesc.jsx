@@ -34,7 +34,7 @@ const MainDesc = () => {
                                 <div className="flex flex-col justify-center py-auto bg-red-NL rounded-[30px] lg:rounded-[38px] shadow-home-card px-12 xl:px-20 2xl:px-[104px] py-[31px] lg:py-[43px] gap-y-5">
                                     <img
                                         src={`${assetsKomunitas}/Logo-${item.title}.png`}
-                                        className="pointer-events-none"
+                                        className="mx-auto pointer-events-none"
                                         width={`${item.width}`}
                                         loading="lazy"
                                         alt={`Logo ${item.title}`}
