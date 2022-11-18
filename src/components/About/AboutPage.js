@@ -38,30 +38,22 @@ const AboutPage = () => {
             />
           </div>
           <div className="w-full">
-            <h2 className="text-white text-4.5xl  font-bold">
+            <h2 className="font-poppinsBold text-white text-4.5xl  font-bold">
               About Night Login
             </h2>
-            <p className="mx-36 my-7 text-white text-xl leading-9 text-start">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos non iste cupiditate perferendis dolore fugit, magni,
-              labore minus nobis temporibus repellendus consequuntur quisquam
-              laborum nesciunt, accusantium modi rem atque ut tempora earum?
-              Ullam, quo ad. Quidem quaerat itaque vitae blanditiis, commodi
-              inventore debitis atque minima minus in eligendi laboriosam
-              laudantium quis corrupti beatae. Adipisci, nam recusandae? Ducimus
-              blanditiis nisi modi accusamus a repellat aliquid quibusdam rem, ut
-              rerum! Voluptates, dolores?
+            <p className="font-poppinsRegular mx-36 my-7 text-white text-xl leading-9 text-center">
+              Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang bergerak di bidang teknologi informasi. BSO ini merupakan wadah bagi mahasiswa DTETI yang memiliki minat di bidang IT untuk mengembangkan kemampuan, kreativitas, inovasi, dan memperluas wawasan terkait bidang-bidang IT.
             </p>
           </div>
           <div className="flex flex-row justify-between">
             <img src={HappyBunchL} alt="myPicture" className="h-100" loading="lazy" />
             <img src={HappyBunchR} alt="myPicture" className="h-100" loading="lazy" />
           </div>
-          <div className="h-72 bg-pink-NL rounded-10xl mx-56 px-7 mt-0 shadow-custom shadow-grey">
-            <h2 className="text-black-NL text-4.5xl  font-bold pt-10 my-1">
+          <div className="bg-pink-NL rounded-10xl mx-56 py-16 px-12 mt-0 shadow-custom shadow-grey">
+            <h2 className="text-black-NL font-poppinsBold text-4.5xl font-bold my-1">
               #BeginToGain
             </h2>
-            <p className="text-black-NL text-xl mt-3">
+            <p className="font-poppinsRegular text-black-NL text-xl mt-3">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
               veniam odio iure animi quis, architecto cum molestias! Excepturi,
               repellat fuga neque possimus sapiente eos ipsum unde a ab aut
@@ -71,66 +63,66 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="py-10 mt-40 bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
-            <h2 className="text-white text-4.5xl font-bold pt-32">
+            <h2 className="text-white text-4.5xl font-poppinsBold pt-32">
               Meet The Team
             </h2>
-            <p className="text-white text-2xl mt-7 mb-10">
+            <p className="font-poppinsRegular text-white text-2xl mt-7 mb-10">
               Introducing our incredible team from different field and interest
             </p>
             <div className="h-full">
-              <div className="presiden">
+              <div className="w-full">
                 <BoxProfile title="President" name={NLAdministrator.leader.president} />
                 <BoxProfile title="Vice" name={NLAdministrator.leader.vice} />
               </div>
               <div className="w-80 bg-white ml-40 my-32 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
-                <p className="my-3 font-bold text-[1.8rem] text-black-NL ">
+                <p className="font-poppinsSemi my-3 text-[1.8rem] text-black-NL ">
                   Management Team
                 </p>
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
                 <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
-                  <h3 className="-mt-4 text-white font-semibold text-[1.4rem] ">
+                  <h3 className="font-poppinsSemi -mt-4 text-white text-[1.4rem] ">
                     Public Relation Team
                   </h3>
                 </div>
               </div>
-              <div className="vice">
+              <div className="flex flex-wrap justify-start ml-[6%]">
                 <BoxProfile title="Head" name={NLAdministrator.managementTeam.publicRealtionTeam.head} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.publicRealtionTeam.members[0]} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.publicRealtionTeam.members[1]} />
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
                 <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
-                  <h3 className="-mt-4 text-white font-semibold text-[1.4rem] ">
+                  <h3 className="font-poppinsSemi -mt-4 text-white text-[1.4rem] ">
                     Creative Media Team
                   </h3>
                 </div>
               </div>
-              <div className="vice">
+              <div className="flex flex-wrap justify-start ml-[6%]">
                 <BoxProfile title="Head" name={NLAdministrator.managementTeam.creativeMediaTeam.head} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.creativeMediaTeam.members[0]} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.creativeMediaTeam.members[1]} />
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
                 <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
-                  <h3 className="-mt-4 text-white font-semibold text-[1.4rem] ">
+                  <h3 className="font-poppinsSemi -mt-4 text-white text-[1.4rem] ">
                     Administration Team
                   </h3>
                 </div>
               </div>
-              <div className="vice">
+              <div className="flex flex-wrap justify-start ml-[6%]">
                 <BoxProfile title="Head" name={NLAdministrator.managementTeam.administrationTeam.head} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.administrationTeam.members[0]} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.administrationTeam.members[1]} />
                 <BoxProfile title="Member" name={NLAdministrator.managementTeam.administrationTeam.members[2]} />
               </div>
               <div className="w-80 bg-white ml-40 mt-20 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
-                <p className="my-3 font-bold text-[1.8rem] text-black-NL ">
+                <p className="font-poppinsSemi my-3 text-[1.8rem] text-black-NL ">
                   Community Team
                 </p>
               </div>
               {/* Membuat Comunity Section */}
-              <div className="flex flex-row my-20 mx-[10%]">
+              <div className="flex flex-row my-20 mx-[10%] font-poppinsSemi">
                 <button
                   onClick={() => {
                     setActiveButton("NADC");
@@ -251,7 +243,7 @@ const AboutPage = () => {
                 <div className="flex flex-row justify-center my-10">
                   <img src={activeLogo} alt="Logo" className=" px-14 w-[25%]" />
                   <div className="py-10 bg-red-NL w-1"> </div>
-                  <div className="py-5 px-14 inline break-word text-white font-semibold text-3xl">
+                  <div className="font-poppinsMedium py-5 px-14 inline break-word text-white text-3xl">
                     Night Login {activeFirstnameLogo} <br /> {activeLastnameLogo}{" "}
                     Community
                   </div>
@@ -263,8 +255,8 @@ const AboutPage = () => {
               </div>
               <div className="flex flex-row justify-center bg-pink-NL mt-32 rounded-3xl md:rounded-3.5xl xl:rounded-5xl py-28">
                 <div className="py-44 mr-16">
-                  <h2 className="text-white font-bold text-[2.5rem] text-start">Do you want to be part of<br/> Night Login?</h2>
-                  <p className="text-white font-semibold text-[2rem] text-start">wait fot further information</p>
+                  <h2 className="font-poppinsBold text-white text-[2.5rem] text-start">Do you want to be a part of<br/> Night Login?</h2>
+                  <p className="font-poppinsMedium text-white text-[2rem] text-start pt-4">Wait for further information!</p>
                 </div>
                 <img src={Drawkit} alt="animationPic" className="w-[42%]" loading="lazy" />
               </div>
