@@ -1,4 +1,4 @@
-const styleButton = "items-center px-[26px] py-[3px] rounded-[58px] bg-white-NL text-black-NL font-poppinsBold text-[24px]"
+const styleButton = "items-center px-[26px] py-[3px] rounded-[58px] bg-white-NL hover:bg-black-NL text-black-NL hover:text-white-NL font-poppinsBold text-[24px]"
 
 const Events = () => {
     return (

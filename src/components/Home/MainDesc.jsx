@@ -44,7 +44,7 @@ const MainDesc = () => {
                                     </p>
                                     <a 
                                         href="#!"
-                                        className="mx-auto font-poppinsSemi text-sm lg:text-base text-black-NL text-center rounded-[25px] lg:rounded-[42px] bg-white-NL w-full xl:w-10/12 2xl:w-3/4 px-3 lg:px-[31px] py-2 lg:py-[11px] cursor-pointer"
+                                        className="mx-auto font-poppinsSemi text-sm lg:text-base text-black-NL hover:text-white-NL text-center rounded-[25px] lg:rounded-[42px] bg-white-NL hover:bg-pink-NL w-full xl:w-10/12 2xl:w-3/4 px-3 lg:px-[31px] py-2 lg:py-[11px] cursor-pointer"
                                     >
                                         {item.textButton}
                                     </a>
