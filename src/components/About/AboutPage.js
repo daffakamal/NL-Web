@@ -11,6 +11,7 @@ import HappyBunch from "../../assets/images/About/HappyBunch.png";
 import Drawkit from "../../assets/images/About/Drawkit.png";
 import BoxProfile from "./BoxProfile.js";
 import { useState } from "react";
+import{ NLAdministrator }from "../data/dataPengurusNL.js";
 
 const AboutPage = () => {
   const [activeButton, setActiveButton] = useState("NADC");
@@ -75,8 +76,8 @@ const AboutPage = () => {
           </p>
           <div className="box">
             <div className="presiden">
-              <BoxProfile title="President" name="Samatha Marhaendra P." />
-              <BoxProfile title="Vice" name="Christian Ale P." />
+              <BoxProfile title="President" name={NLAdministrator.leader.president} />
+              <BoxProfile title="Vice" name={NLAdministrator.leader.vice} />
             </div>
             <div className="w-80 bg-white ml-40 my-32 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
               <p className="my-3 font-bold text-[1.8rem] text-black-NL ">
@@ -91,9 +92,9 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="vice">
-              <BoxProfile title="Head" name="Sagara Aldavy M.N.S" />
-              <BoxProfile title="Member" name="Khairun Nisa’ Z." />
-              <BoxProfile title="Member" name="Byan Cahaya R. A" />
+              <BoxProfile title="Head" name={NLAdministrator.managementTeam.publicRealtionTeam.head} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.publicRealtionTeam.members[0]} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.publicRealtionTeam.members[1]} />
             </div>
             <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
               <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
@@ -103,9 +104,9 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="vice">
-              <BoxProfile title="Head" name="Arifah Amelia T." />
-              <BoxProfile title="Member" name="Fajar Rizki W." />
-              <BoxProfile title="Member" name="M. Daniyal Kautsar" />
+              <BoxProfile title="Head" name={NLAdministrator.managementTeam.creativeMediaTeam.head} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.creativeMediaTeam.members[0]} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.creativeMediaTeam.members[1]} />
             </div>
             <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
               <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
@@ -115,10 +116,10 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="vice">
-              <BoxProfile title="Head" name="Gerrit Ezra Yudi K." />
-              <BoxProfile title="Member" name="Talitha Andani" />
-              <BoxProfile title="Member" name="Dhiyaa Amalia P" />
-              <BoxProfile title="Member" name="Anisa Nur Rahmalina" />
+              <BoxProfile title="Head" name={NLAdministrator.managementTeam.administrationTeam.head} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.administrationTeam.members[0]} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.administrationTeam.members[1]} />
+              <BoxProfile title="Member" name={NLAdministrator.managementTeam.administrationTeam.members[2]} />
             </div>
             <div className="w-80 bg-white ml-40 mt-20 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
               <p className="my-3 font-bold text-[1.8rem] text-black-NL ">

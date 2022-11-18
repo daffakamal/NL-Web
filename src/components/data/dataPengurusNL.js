@@ -1,4 +1,4 @@
-const PengurusNL = {
+const NLAdministrator = {
     leader: {
         president: "Samatha Marhaendra P.",
         vice: "Christian Ale P.",
@@ -49,3 +49,5 @@ const PengurusNL = {
 
 
 }
+
+export { NLAdministrator };
