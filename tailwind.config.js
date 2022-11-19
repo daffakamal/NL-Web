@@ -43,6 +43,10 @@ module.exports = {
         '3.5xl': '120px 120px 0px 0px',
         '3xl': '100px 100px 0px 0px',
       },
+      screens: {
+        'xs': '567px',
+        '3xl': '1920px',
+      },
     },
   },
   plugins: [],
