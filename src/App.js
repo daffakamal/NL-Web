@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import  { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutPage from './components/About/AboutPage.js';
 import Navbar from './components/Layout/Navbar.js';
-import LandingPage from './components/Home/LandingPage.js';
+import LandingPage from './components/Home/LandingPage';
 import MainDesc from './components/Home/MainDesc';
 import Events from './components/Home/Events';
 import Footer from './components/Layout/Footer';
