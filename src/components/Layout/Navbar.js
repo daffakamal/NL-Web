@@ -36,7 +36,7 @@ const Navbar = () => {
 
     return ( 
         <nav className="w-full bg-red-NL shadow-2xl fixed z-40 px-14 md:px-20 lg:px-24 xl:px-[134px]">
-            <div className="w-full flex mx-auto container h-16">
+            <div className="w-full flex mx-auto container h-16 2xl:h-[68px]">
                 <div className="w-full flex flex-row justify-between items-center">
                     <div className="flex items-center my-5">
                         <a 
@@ -45,7 +45,7 @@ const Navbar = () => {
                         >
                             <img 
                                 src={logo} 
-                                className="inline mr-4 w-[35px] lg:w-[37px] xl:w-[40px] 2xl:w-[44px]" 
+                                className="inline mr-4 w-[35px] lg:w-[37px] xl:w-[40px] 2xl:w-[42px]" 
                                 alt="Logo Night Login" 
                             />
                             <h1 className="inline font-poppinsSemi text-xl lg:text-[21px] xl:text-[22px] text-white">
