@@ -31,7 +31,7 @@ const MainDesc = () => {
                     <div className="flex justify-center pb-20">
                         <div className="grid grid-cols-2 gap-x-[100px] xl:gap-x-[150px] gap-y-[99px]">
                             {list.map((item) => (
-                                <div className="flex flex-col justify-center py-auto bg-red-NL rounded-[30px] lg:rounded-[38px] shadow-home-card px-12 xl:px-20 2xl:px-[104px] py-[31px] lg:py-[43px] gap-y-5">
+                                <div className="flex flex-col justify-center py-auto bg-red-NL shadow-custom3 hover:shadow-none hover:translate-x-3 hover:translate-y-3 transition duration-300 rounded-[30px] lg:rounded-[38px] px-12 xl:px-20 2xl:px-[104px] py-[31px] lg:py-[43px] gap-y-5">
                                     <img
                                         src={`${assetsKomunitas}/Logo-${item.title}.png`}
                                         className="mx-auto pointer-events-none"

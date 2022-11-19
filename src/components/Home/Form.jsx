@@ -34,7 +34,7 @@ const Form = () => {
                 ></textarea>
                 <button 
                     type="submit" 
-                    className="px-7 md:px-10 py-3 font-poppinsMedium text-white text-[20px] bg-red-NL rounded-2xl mt-[37px]"
+                    className="px-7 md:px-10 py-3 font-poppinsMedium text-white text-[20px] bg-red-NL hover:bg-[#D93C3C] rounded-2xl mt-[37px]"
                 >
                         Submit
                 </button>

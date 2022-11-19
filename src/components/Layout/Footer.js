@@ -11,7 +11,7 @@ const Footer = () => {
         return (
             <a 
                 href={link}
-                className="font-poppinsRegular text-base xl:text-[20px]" 
+                className="font-poppinsRegular text-base xl:text-[20px] hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-red-NL" 
             >
                 {title}
             </a>
