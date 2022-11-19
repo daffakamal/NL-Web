@@ -8,6 +8,7 @@ const LandingPage = () => {
                 <img
                     src={LogoNL}
                     className="w-[150px] md:w-[200px] lg:w-[230px] xl:w-[250px] 2xl:w-[300px]"
+                    fetchpriority="high"
                     alt="Logo Night Login"
                 />
                 <h1 className="font-poppinsBold text-center text-white text-[30px] md:text-[36px] lg:text-[40px] 2xl:text-[55px] pt-[10px]">
