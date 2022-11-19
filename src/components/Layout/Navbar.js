@@ -34,8 +34,6 @@ const Navbar = () => {
         { href: '#!', title: 'Internal Project' }
     ]
 
-    const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-sm cursor-pointer text-black hover:text-cyan-600 px-3 py-2"
-
     return ( 
         <nav className="w-full bg-red-NL shadow-2xl fixed z-40 px-14 md:px-20 lg:px-[134px]">
             <div className="w-full flex mx-auto container h-16 lg:h-20">
