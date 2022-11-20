@@ -11,14 +11,14 @@ const LandingPage = () => {
                     fetchpriority="high"
                     alt="Logo Night Login"
                 />
-                <h1 className="font-poppinsBold text-center text-white text-[30px] md:text-[36px] lg:text-[40px] 2xl:text-[55px] pt-[10px]">
+                <h1 className="font-poppinsBold text-center text-white text-[30px] md:text-[36px] lg:text-[40px] xl:text-[47px] 2xl:text-[55px] pt-[1px] md:pt-[10px]">
                     Night Login UGM
                 </h1>
                 <a 
                     href="#MainDesc"
                     className="relative my-auto -bottom-20 lg:-bottom-28 xl:-bottom-32 2xl:-bottom-48 cursor-pointer animate-bounce"
                 >
-                    <ChevronDownIcon className="w-10 lg:w-12 2xl:w-14 text-white" />
+                    <ChevronDownIcon className="w-8 md:w-10 lg:w-12 2xl:w-14 text-white" />
                 </a>
             </div>
         </div>

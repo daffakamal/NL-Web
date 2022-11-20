@@ -1,4 +1,4 @@
-const styleButton = "items-center px-[26px] py-[3px] rounded-[58px] bg-white-NL hover:bg-black-NL text-black-NL hover:text-white-NL font-poppinsBold text-[24px]"
+const styleButton = "items-center px-[26px] py-[3px] rounded-[58px] bg-white-NL hover:bg-black-NL text-black-NL hover:text-white-NL font-poppinsBold text-[20px] md:text-[24px]"
 
 const Events = () => {
     return (
@@ -10,7 +10,7 @@ const Events = () => {
                 <h1 className="font-poppinsBold text-white-NL text-center text-[40px] pt-[130px] pb-[70px]">
                     Our Events
                 </h1>
-                <div className="flex flex-row gap-x-[48px] justify-center">
+                <div className="flex flex-row gap-x-[30px] sm:gap-x-[48px] justify-center overflow-x-auto">
                     <button className={styleButton}>
                         2020
                     </button>
