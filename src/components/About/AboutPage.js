@@ -241,8 +241,12 @@ const AboutPage = () => {
               {/* Community box */}
               <div>
                 <div className="flex flex-row justify-center my-10">
-                  <img src={activeLogo} alt="Logo" className=" px-14 w-[25%]" />
-                  <div className="py-10 bg-red-NL w-1"> </div>
+                  <img 
+                    src={activeLogo} 
+                    alt="Logo" 
+                    className=" px-14 w-[25%]" 
+                  />
+                  <div className="py-10 bg-red-NL w-1"></div>
                   <div className="font-poppinsMedium py-5 px-14 inline break-word text-white text-3xl">
                     Night Login {activeFirstnameLogo} <br /> {activeLastnameLogo}{" "}
                     Community
