@@ -11,11 +11,11 @@ const MainDesc = () => {
             id={"MainDesc"}
             className="w-full bg-pink-NL relative grid justify-items-center content-center rounded-2.2xl smallest:rounded-2.5xl md:rounded-3.5xl xl:rounded-5xl mt-10"
         >
-            <h1 className="font-poppinsBold text-center text-black-NL text-[31px] smallest:text-[35px] md:text-[42px] lg:text-[48px] xl:text-[51px] 2xl:text-[55px] py-[40px] md:py-[50px] lg:py-[60px] xl:py-[70px]  2xl:py-[90px]">
+            <h1 className="font-poppinsBold text-center text-black-NL text-[31px] smallest:text-[35px] md:text-[42px] lg:text-[48px] xl:text-[51px] 2xl:text-[55px] py-[40px] md:py-[50px] lg:py-[60px] xl:py-[70px] 2xl:py-[90px]">
                 #BeginToGain
             </h1>
             <div className="w-full bg-white-NL relative rounded-2.2xl smallest:rounded-2.5xl md:rounded-3.5xl xl:rounded-5xl px-7 smallest:px-12 sm:px-14 md:px-20 lg:px-[134px] pb-12 lg:pb-28">
-                <div className="grid justify-items-center content-center mx-auto container">
+                <div className="2xl:max-w-[1400px] grid justify-items-center content-center mx-auto">
                     <h1 className="font-poppinsBold text-center text-red-NL text-[28px] md:text-[35px] lg:text-[40px] pt-[60px] lg:pt-[80px] xl:pt-[90px] pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[70px]">
                         About Night Login
                     </h1>
@@ -24,17 +24,17 @@ const MainDesc = () => {
                     </p>
                     <h1 
                         id={"Community"}
-                        className="font-poppinsBold text-center text-red-NL text-[28px] md:text-[35px] lg:text-[40px] pt-[100px] md:pt-[120px] lg:pt-[130px] xl:pt-[150px] 2xl:pt-[161px] pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[70px]"
+                        className="font-poppinsBold text-center text-red-NL text-[28px] md:text-[35px] lg:text-[40px] pt-[70px] md:pt-[100px] lg:pt-[130px] xl:pt-[140px] pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[70px]"
                     >
                         Our Communities
                     </h1>
                     <div className="flex justify-center pb-20">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[80px] md:gap-x-[100px] xl:gap-x-[150px] gap-y-[99px]">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[80px] md:gap-x-[80px] lg:gap-x-[100px] xl:gap-x-[150px] gap-y-[90px]">
                             {list.map((item) => (
-                                <div className="flex flex-col justify-center py-auto bg-red-NL shadow-custom3 hover:shadow-none hover:translate-x-3 hover:translate-y-3 transition duration-300 rounded-[30px] lg:rounded-[38px] px-10 md:px-12 xl:px-20 2xl:px-[104px] py-[31px] lg:py-[43px] gap-y-5">
+                                <div className="flex flex-col justify-center py-auto bg-red-NL shadow-custom3 hover:shadow-none hover:translate-x-3 hover:translate-y-3 transition duration-300 rounded-[30px] lg:rounded-[38px] px-9 smallest:px-10 md:px-10 lg:px-14 xl:px-20 2xl:px-[104px] py-[31px] lg:py-[43px] gap-y-5">
                                     <img
                                         src={`${assetsKomunitas}/Logo-${item.title}.png`}
-                                        className="w-9/12 sm:w-full mx-auto pointer-events-none"
+                                        className="w-9/12 md:w-full lg:w-11/12 xl:w-full mx-auto pointer-events-none"
                                         width={`${item.width}`}
                                         loading="lazy"
                                         alt={`Logo ${item.title}`}
@@ -44,7 +44,7 @@ const MainDesc = () => {
                                     </p>
                                     <a 
                                         href="#!"
-                                        className="mx-auto font-poppinsSemi text-xs smallest:text-sm lg:text-base text-black-NL hover:text-white-NL text-center rounded-[25px] lg:rounded-[42px] bg-white-NL hover:bg-pink-NL w-full xl:w-10/12 2xl:w-3/4 px-3 lg:px-[31px] py-2 lg:py-[11px] cursor-pointer"
+                                        className="mx-auto font-poppinsSemi text-xs smallest:text-sm lg:text-base text-black-NL hover:text-white-NL text-center rounded-[25px] lg:rounded-[42px] bg-white-NL hover:bg-pink-NL w-3/4 smallest:w-8/12 md:w-10/12 lg:w-11/12 xl:w-10/12 2xl:w-3/4 px-3 xl:px-[31px] py-2 xl:py-[11px] cursor-pointer"
                                     >
                                         {item.textButton}
                                     </a>
