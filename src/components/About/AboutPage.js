@@ -19,8 +19,7 @@ const AboutPage = () => {
     {
       id: "NADC",
       logo: LogoNADC,
-      firstnameLogo: "Aplication",
-      lastnameLogo: "Development",
+      communityName: "Aplication Development",
       title: "Head",
       name: "Firdaus Bisma Suryakusuma",
       viceTitle: "Vice Head",
@@ -29,8 +28,7 @@ const AboutPage = () => {
     {
       id: "NCPC",
       logo: LogoNCPC,
-      firstnameLogo: "Competitive",
-      lastnameLogo: "Programming",
+      communityName: "Competitive Programming",
       title: "Head",
       name: "Harry Krisna Darmawan",
       viceTitle: "Vice Head",
@@ -39,8 +37,7 @@ const AboutPage = () => {
     {
       id: "NDDC",
       logo: LogoNDDC,
-      firstnameLogo: "Data Science and",
-      lastnameLogo: "Data Analitic",
+      communityName: "Data Science and Data Analitic",
       title: "Head",
       name: "Rizky Alif Ramadhan",
       viceTitle: "Vice Head",
@@ -49,8 +46,7 @@ const AboutPage = () => {
     {
       id: "NLNC",
       logo: LogoNLNC,
-      firstnameLogo: "Linux and",
-      lastnameLogo: "Networking",
+      communityName: "Linux and Networking",
       title: "Head",
       name: "Muhammad Farrel Rafirizqy",
       viceTitle: "Vice Head",
@@ -59,8 +55,7 @@ const AboutPage = () => {
     {
       id: "NUXC",
       logo: LogoNUXC,
-      firstnameLogo: "User",
-      lastnameLogo: "Experience",
+      communityName: "User Experience",
       title: "Head",
       name: "Tiara Kesuma Putri",
       viceTitle: "Vice Head",
@@ -69,8 +64,7 @@ const AboutPage = () => {
     {
       id: "NWDC",
       logo: LogoNWDC,
-      firstnameLogo: "Web",
-      lastnameLogo: "Development",
+      communityName: "Web Development",
       title: "Head",
       name: "Aldo Arya Saka Mukti",
       viceTitle: "Vice Head",
@@ -80,8 +74,7 @@ const AboutPage = () => {
 
   const [activeButton, setActiveButton] = useState("NADC");
   const [activeLogo, setActiveLogo] = useState(LogoNADC);
-  const [activeFirstnameLogo, setActiveFirstnameLogo] = useState("Aplication");
-  const [activeLastnameLogo, setActiveLastnameLogo] = useState("Development");
+  const [activeCommunityName, setActiveCommunityName] = useState("Aplication Development");
   const [activeTitle, setActiveTitle] = useState("Head");
   const [activeName, setActiveName] = useState("Gerrit");
   const [activeViceTitle, setActiveViceTitle] = useState("Head");
@@ -172,18 +165,18 @@ const AboutPage = () => {
               <div className="flex flex-wrap justify-start ml-[6%]">
                 <BoxProfile
                   title="Head"
-                  name={NLAdministrator.managementTeam.publicRealtionTeam.head}
+                  name={NLAdministrator.managementTeam.publicRelationTeam.head}
                 />
                 <BoxProfile
                   title="Member"
                   name={
-                    NLAdministrator.managementTeam.publicRealtionTeam.members[0]
+                    NLAdministrator.managementTeam.publicRelationTeam.members[0]
                   }
                 />
                 <BoxProfile
                   title="Member"
                   name={
-                    NLAdministrator.managementTeam.publicRealtionTeam.members[1]
+                    NLAdministrator.managementTeam.publicRelationTeam.members[1]
                   }
                 />
               </div>
@@ -249,15 +242,14 @@ const AboutPage = () => {
                 </p>
               </div>
               {/* Membuat Comunity Section */}
-              <div className="flex flex-row my-20 mx-[10%] font-poppinsSemi">
+              <div className="flex flex-row my-20 pb-3 mx-[10%] font-poppinsSemi overflow-x-auto">
                 {communitiesData.map((item) => (
                   <button
                     key={item.id}
                     onClick={() => {
                       setActiveButton(item.id);
                       setActiveLogo(item.logo);
-                      setActiveFirstnameLogo(item.firstnameLogo);
-                      setActiveLastnameLogo(item.lastnameLogo);
+                      setActiveCommunityName(item.communityName);
                       setActiveTitle(item.title);
                       setActiveName(item.name);
                       setActiveViceTitle(item.viceTitle);
@@ -275,12 +267,15 @@ const AboutPage = () => {
               </div>
               {/* Community box */}
               <div>
-                <div className="flex flex-row justify-center my-10">
-                  <img src={activeLogo} alt="Logo" className=" px-14 w-[25%]" />
+                <div className="h-full flex flex-row justify-center content-center my-10">
+                  <img
+                    src={activeLogo}
+                    alt={`Logo ${activeLogo}`}
+                    className="px-14 w-[400px]"
+                  />
                   <div className="py-10 bg-red-NL w-1"></div>
-                  <div className="font-poppinsMedium py-5 px-14 inline break-word text-white text-3xl">
-                    Night Login {activeFirstnameLogo} <br />{" "}
-                    {activeLastnameLogo} Community
+                  <div className="max-w-[600px] font-poppinsMedium py-5 px-14 inline break-word text-white text-2xl lg:text-3xl">
+                    Night Login {activeCommunityName} Community
                   </div>
                 </div>
                 <div className="box">

@@ -4,7 +4,7 @@ const NLAdministrator = {
         vice: "Christian Ale P.",
     },
     managementTeam: {
-        publicRealtionTeam: {
+        publicRelationTeam: {
             head: "Sagara Aldavy M.N.S",
             members: ["Khairun Nisa’ Z.", "Byan Cahaya R. A"]
         },
