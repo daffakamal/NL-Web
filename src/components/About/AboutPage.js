@@ -12,7 +12,7 @@ import HappyBunch from "../../assets/images/About/HappyBunch.png";
 import Drawkit from "../../assets/images/About/Drawkit.png";
 import BoxProfile from "./BoxProfile.js";
 import { useState } from "react";
-import{ NLAdministrator }from "../data/dataPengurusNL.js";
+import { NLAdministrator } from "../data/dataPengurusNL.js";
 
 const AboutPage = () => {
   const communitiesData = [
@@ -74,7 +74,9 @@ const AboutPage = () => {
 
   const [activeButton, setActiveButton] = useState("NADC");
   const [activeLogo, setActiveLogo] = useState(LogoNADC);
-  const [activeCommunityName, setActiveCommunityName] = useState("Aplication Development");
+  const [activeCommunityName, setActiveCommunityName] = useState(
+    "Aplication Development"
+  );
   const [activeTitle, setActiveTitle] = useState("Head");
   const [activeName, setActiveName] = useState("Gerrit");
   const [activeViceTitle, setActiveViceTitle] = useState("Head");
@@ -86,54 +88,56 @@ const AboutPage = () => {
         title="About"
         decription="Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang bergerak di bidang teknologi informasi."
       />
-      <div className="h-full">
-        <div className="pt-32 text-center">
-          <div className="py-24 flex flex-row justify-center h-80">
-            <img
-              className="h-auto shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
-              src={Logo}
-              loading="lazy"
-              alt="logo"
-            />
-          </div>
-          <div className="w-full">
-            <h2 className="font-poppinsBold text-white text-4.5xl  font-bold">
-              About Night Login
-            </h2>
-            <p className="font-poppinsRegular mx-36 my-7 text-white text-xl leading-9 text-center">
-              Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang
-              bergerak di bidang teknologi informasi. BSO ini merupakan wadah
-              bagi mahasiswa DTETI yang memiliki minat di bidang IT untuk
-              mengembangkan kemampuan, kreativitas, inovasi, dan memperluas
-              wawasan terkait bidang-bidang IT.
-            </p>
-          </div>
-          <div className="flex flex-row justify-between">
+      <div className="min-h-full">
+        <div className="min-h-full 2xl:min-h-screen text-center">
+          <div className="relative mx-auto py-20 lg:py-32 mb-32 text-center px-7 smallest:px-12 sm:px-14 md:px-20 lg:px-[134px]">
+            <div className="2xl:max-w-[1400px] mx-auto py-24 flex flex-row justify-center">
+              <img
+                className="w-[300px] sm:w-[400px] md:w-[500px] shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
+                src={Logo}
+                loading="lazy"
+                alt="logo night login"
+              />
+            </div>
+            <div className="w-full 2xl:max-w-[1400px] mx-auto">
+              <h2 className="font-poppinsBold text-white text-4.5xl">
+                About Night Login
+              </h2>
+              <p className="font-poppinsRegular my-7 text-white text-xl leading-9 text-center">
+                Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM
+                yang bergerak di bidang teknologi informasi. BSO ini merupakan
+                wadah bagi mahasiswa DTETI yang memiliki minat di bidang IT
+                untuk mengembangkan kemampuan, kreativitas, inovasi, dan
+                memperluas wawasan terkait bidang-bidang IT.
+              </p>
+            </div>
             <img
               src={HappyBunchL}
-              alt="myPicture"
-              className="h-100"
+              alt="decoration"
+              className="w-[250px] absolute left-0 -bottom-36 md:-bottom-44 lg:-bottom-32 z-0"
               loading="lazy"
             />
             <img
               src={HappyBunchR}
-              alt="myPicture"
-              className="h-100"
+              alt="decoration"
+              className="w-[216px] absolute right-0 -bottom-36 md:-bottom-44 lg:-bottom-32 z-0"
               loading="lazy"
             />
           </div>
-          <div className="bg-pink-NL rounded-10xl mx-56 py-16 px-12 mt-0 shadow-custom shadow-grey">
-            <h2 className="text-black-NL font-poppinsBold text-4.5xl font-bold my-1">
-              #BeginToGain
-            </h2>
-            <p className="font-poppinsRegular text-black-NL text-xl mt-3">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              veniam odio iure animi quis, architecto cum molestias! Excepturi,
-              repellat fuga neque possimus sapiente eos ipsum unde a ab aut
-              provident rem temporibus, laborum nihil asperiores aspernatur enim
-              beatae, placeat eaque praesentium perspiciatis! Quasi veniam
-              voluptatibus tempore nihil hic iste fugiat!
-            </p>
+          <div className="px-7 smallest:px-12 sm:px-14 z-40 mx-auto">
+            <div className="max-w-[600px] lg:max-w-[840px] xl:max-w-[970px] 2xl:max-w-[1200px] mx-auto bg-pink-NL rounded-10xl py-16 px-14 mt-0 shadow-custom shadow-grey">
+              <h2 className="text-black-NL font-poppinsBold text-4.5xl font-bold my-1">
+                #BeginToGain
+              </h2>
+              <p className="font-poppinsRegular text-black-NL text-xl mt-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+                veniam odio iure animi quis, architecto cum molestias!
+                Excepturi, repellat fuga neque possimus sapiente eos ipsum unde
+                a ab aut provident rem temporibus, laborum nihil asperiores
+                aspernatur enim beatae, placeat eaque praesentium perspiciatis!
+                Quasi veniam voluptatibus tempore nihil hic iste fugiat!
+              </p>
+            </div>
           </div>
           <div className="py-10 mt-40 bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
             <h2 className="text-white text-4.5xl font-poppinsBold pt-32">
