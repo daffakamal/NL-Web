@@ -88,12 +88,12 @@ const AboutPage = () => {
         title="About"
         decription="Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM yang bergerak di bidang teknologi informasi."
       />
-      <div className="min-h-full">
+      <div className="min-h-full overflow-hidden">
         <div className="min-h-full 2xl:min-h-screen text-center">
           <div className="relative mx-auto py-20 lg:py-32 mb-32 text-center px-7 smallest:px-12 sm:px-14 md:px-20 lg:px-[134px]">
             <div className="2xl:max-w-[1400px] mx-auto py-24 flex flex-row justify-center">
               <img
-                className="w-[300px] sm:w-[400px] md:w-[500px] shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
+                className="w-[300px] sm:w-[400px] md:w-[450px] lg:w-[500px] shadow-[0_0_25px_5px_rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.1)]"
                 src={Logo}
                 loading="lazy"
                 alt="logo night login"
@@ -140,24 +140,27 @@ const AboutPage = () => {
             </div>
           </div>
           <div className="py-10 mt-40 bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
-            <h2 className="text-white text-4.5xl font-poppinsBold pt-32">
-              Meet The Team
-            </h2>
-            <p className="font-poppinsRegular text-white text-2xl mt-7 mb-10">
-              Introducing our incredible team from different field and interest
-            </p>
+            <div className="px-7 smallest:px-12 sm:px-14">
+              <h2 className="text-white text-4.5xl font-poppinsBold pt-[60px] lg:pt-[80px] xl:pt-[90px]">
+                Meet The Team
+              </h2>
+              <p className="font-poppinsRegular text-white text-2xl mt-7 mb-10">
+                Introducing our incredible team from different field and
+                interest
+              </p>
+            </div>
             <div className="h-full">
-              <div className="w-full">
+              <div className="w-full flex flex-wrap justify-center">
                 <BoxProfile
                   title="President"
                   name={NLAdministrator.leader.president}
                 />
                 <BoxProfile title="Vice" name={NLAdministrator.leader.vice} />
               </div>
-              <div className="w-80 bg-white ml-40 my-32 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
-                <p className="font-poppinsSemi my-3 text-[1.8rem] text-black-NL ">
+              <div className="my-32 ml-[10%]">
+                <h2 className="font-poppinsSemi w-80 py-3 text-[1.8rem] text-black-NL bg-white shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
                   Management Team
-                </p>
+                </h2>
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
                 <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
@@ -166,7 +169,7 @@ const AboutPage = () => {
                   </h3>
                 </div>
               </div>
-              <div className="flex flex-wrap justify-start ml-[6%]">
+              <div className="flex flex-wrap justify-start ml-[5%] xl:ml-[7%]">
                 <BoxProfile
                   title="Head"
                   name={NLAdministrator.managementTeam.publicRelationTeam.head}
@@ -240,8 +243,8 @@ const AboutPage = () => {
                   }
                 />
               </div>
-              <div className="w-80 bg-white ml-40 mt-20 shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
-                <p className="font-poppinsSemi my-3 text-[1.8rem] text-black-NL ">
+              <div className="w-80 bg-white ml-[10%] mt-20">
+                <p className="font-poppinsSemi my-3 text-[1.8rem] text-black-NL w-80 py-3 bg-white shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
                   Community Team
                 </p>
               </div>
@@ -261,8 +264,8 @@ const AboutPage = () => {
                     }}
                     className={`${
                       activeButton === item.id
-                        ? "py-3 px-8 mx-5 text-xl rounded-[2.5rem] bg-white text-red-NL"
-                        : "py-3 px-8 mx-5 text-xl rounded-[2.5rem] bg-red-NL text-white"
+                        ? "py-3 px-8 mx-3 lg:mx-5 text-xl rounded-[2.5rem] bg-white text-red-NL"
+                        : "py-3 px-8 mx-3 lg:mx-5 text-xl rounded-[2.5rem] bg-red-NL text-white"
                     }`}
                   >
                     {item.id}
@@ -271,18 +274,20 @@ const AboutPage = () => {
               </div>
               {/* Community box */}
               <div>
-                <div className="h-full flex flex-row justify-center content-center my-10">
-                  <img
-                    src={activeLogo}
-                    alt={`Logo ${activeLogo}`}
-                    className="px-14 w-[400px]"
-                  />
-                  <div className="py-10 bg-red-NL w-1"></div>
-                  <div className="max-w-[600px] font-poppinsMedium py-5 px-14 inline break-word text-white text-2xl lg:text-3xl">
-                    Night Login {activeCommunityName} Community
+                <div className="w-full flex flex-col lg:flex-row justify-center content-center my-10 px-7">
+                  <div className="mx-auto lg:m-0 flex flex-col lg:flex-row justify-center content-center">
+                    <img
+                      src={activeLogo}
+                      alt={`Logo ${activeLogo}`}
+                      className="m-auto w-[270px] sm:w-[300px] lg:h-[131px] xl:h-auto xl:w-[300px] pb-3 lg:pb-0"
+                    />
+                    <div className="hidden lg:block mx-12 lg:mx-14 bg-red-NL w-1"></div>
+                    <div className="flex items-center max-w-[350px] xl:max-w-[400px] 2xl:max-w-[400px] font-poppinsMedium py-5 break-word text-white text-2xl lg:text-[26px] xl:text-3xl">
+                      Night Login {activeCommunityName} Community
+                    </div>
                   </div>
                 </div>
-                <div className="box">
+                <div className="w-full flex flex-wrap justify-center">
                   <BoxProfile title={activeTitle} name={activeName} />
                   <BoxProfile title={activeViceTitle} name={activeViceName} />
                 </div>
