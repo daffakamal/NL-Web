@@ -100,10 +100,10 @@ const AboutPage = () => {
               />
             </div>
             <div className="w-full 2xl:max-w-[1400px] mx-auto">
-              <h2 className="font-poppinsBold text-white text-4.5xl">
+              <h2 className="font-poppinsBold text-white text-[28px] md:text-[35px] lg:text-[40px]">
                 About Night Login
               </h2>
-              <p className="font-poppinsRegular my-7 text-white text-xl leading-9 text-center">
+              <p className="font-poppinsRegular my-7 text-white text-[17px] md:text-[20px] lg:text-[23px] xl:text-[24px] leading-7 md:leading-8 lg:leading-9 text-center">
                 Night Login merupakan Badan Semi Otonom (BSO) di DTETI FT UGM
                 yang bergerak di bidang teknologi informasi. BSO ini merupakan
                 wadah bagi mahasiswa DTETI yang memiliki minat di bidang IT
@@ -125,11 +125,11 @@ const AboutPage = () => {
             />
           </div>
           <div className="px-7 smallest:px-12 sm:px-14 z-40 mx-auto">
-            <div className="max-w-[600px] lg:max-w-[840px] xl:max-w-[970px] 2xl:max-w-[1200px] mx-auto bg-pink-NL rounded-10xl py-16 px-14 mt-0 shadow-custom shadow-grey">
-              <h2 className="text-black-NL font-poppinsBold text-4.5xl font-bold my-1">
+            <div className="max-w-[600px] md:max-w-[700px] lg:max-w-[840px] xl:max-w-[970px] 2xl:max-w-[1200px] mx-auto bg-pink-NL rounded-10xl py-11 md:py-14 xl:py-16 px-10 lg:px-12 xl:px-14 mt-0 shadow-custom shadow-grey">
+              <h2 className="text-black-NL font-poppinsBold text-[28px] md:text-[35px] lg:text-[40px] mb-1">
                 #BeginToGain
               </h2>
-              <p className="font-poppinsRegular text-black-NL text-xl mt-3">
+              <p className="font-poppinsRegular text-black-NL text-[17px] md:text-[20px] lg:text-[22px] leading-7 md:leading-8 lg:leading-9 mt-3">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
                 veniam odio iure animi quis, architecto cum molestias!
                 Excepturi, repellat fuga neque possimus sapiente eos ipsum unde
@@ -141,12 +141,12 @@ const AboutPage = () => {
           </div>
           <div className="py-10 mt-40 bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
             <div className="px-7 smallest:px-12 sm:px-14">
-              <h2 className="text-white text-4.5xl font-poppinsBold pt-[60px] lg:pt-[80px] xl:pt-[90px]">
+              <h2 className="text-white text-[28px] md:text-[35px] lg:text-[40px] font-poppinsBold pt-[60px] lg:pt-[80px] xl:pt-[90px]">
                 Meet The Team
               </h2>
-              <p className="font-poppinsRegular text-white text-2xl mt-7 mb-10">
-                Introducing our incredible team from different field and
-                interest
+              <p className="font-poppinsRegular text-white text-[17px] md:text-[20px] lg:text-[23px] xl:text-[24px] mt-4 mb-10">
+                Introducing our incredible team from different fields and
+                interests
               </p>
             </div>
             <div className="h-full">
@@ -158,13 +158,13 @@ const AboutPage = () => {
                 <BoxProfile title="Vice" name={NLAdministrator.leader.vice} />
               </div>
               <div className="my-32 ml-[10%]">
-                <h2 className="font-poppinsSemi w-80 py-3 text-[1.8rem] text-black-NL bg-white shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
+                <h2 className="font-poppinsSemi w-64 md:w-72 lg:w-80 py-3 text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] text-black-NL bg-white shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
                   Management Team
                 </h2>
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
-                <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
-                  <h3 className="font-poppinsSemi -mt-4 text-white text-[1.4rem] ">
+                <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl">
+                  <h3 className="font-poppinsSemi -mt-4 text-white text-[19px] md:text-[20px] lg:text-[22px]">
                     Public Relation Team
                   </h3>
                 </div>
@@ -188,8 +188,8 @@ const AboutPage = () => {
                 />
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
-                <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
-                  <h3 className="font-poppinsSemi -mt-4 text-white text-[1.4rem] ">
+                <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl">
+                  <h3 className="font-poppinsSemi -mt-4 text-white text-[19px] md:text-[20px] lg:text-[22px]">
                     Creative Media Team
                   </h3>
                 </div>
@@ -213,8 +213,8 @@ const AboutPage = () => {
                 />
               </div>
               <div className="flex flex-row bg-red-NL h-[0.2rem] ml-[10%] mt-24 mb-10">
-                <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl ">
-                  <h3 className="font-poppinsSemi -mt-4 text-white text-[1.4rem] ">
+                <div className="-mt-8 bg-red-NL py-8 px-[2.8rem] rounded-10xl">
+                  <h3 className="font-poppinsSemi -mt-4 text-white text-[19px] md:text-[20px] lg:text-[22px]">
                     Administration Team
                   </h3>
                 </div>
@@ -243,13 +243,13 @@ const AboutPage = () => {
                   }
                 />
               </div>
-              <div className="w-80 bg-white ml-[10%] mt-20">
-                <p className="font-poppinsSemi my-3 text-[1.8rem] text-black-NL w-80 py-3 bg-white shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
+              <div className="ml-[10%] mt-20 mb-14 lg:mb-20">
+                <p className="font-poppinsSemi my-3 w-64 md:w-72 lg:w-80 py-3 text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] text-black-NL bg-white shadow-[7px_5px_0_1px_#DA4949,13px_10px_0_1px_#FE8F75,13px_10px_0_4px_black] border-solid border-black border-4">
                   Community Team
                 </p>
               </div>
               {/* Membuat Comunity Section */}
-              <div className="flex flex-row my-20 pb-3 mx-[10%] font-poppinsSemi overflow-x-auto">
+              <div className="flex flex-row pb-3 mx-[10%] font-poppinsSemi overflow-x-auto">
                 {communitiesData.map((item) => (
                   <button
                     key={item.id}
@@ -264,8 +264,8 @@ const AboutPage = () => {
                     }}
                     className={`${
                       activeButton === item.id
-                        ? "py-3 px-8 mx-3 lg:mx-5 text-xl rounded-[2.5rem] bg-white text-red-NL"
-                        : "py-3 px-8 mx-3 lg:mx-5 text-xl rounded-[2.5rem] bg-red-NL text-white"
+                        ? "py-2 mg:py-3 px-5 lg:px-8 mx-3 lg:mx-5 text-[18px] lg:text-xl rounded-[2rem] lg:rounded-[2.5rem] bg-white text-red-NL"
+                        : "py-2 mg:py-3 px-5 lg:px-8 mx-3 lg:mx-5 text-[18px] lg:text-xl rounded-[2rem] lg:rounded-[2.5rem] bg-red-NL text-white"
                     }`}
                   >
                     {item.id}
@@ -274,7 +274,7 @@ const AboutPage = () => {
               </div>
               {/* Community box */}
               <div>
-                <div className="w-full flex flex-col lg:flex-row justify-center content-center my-10 px-7">
+                <div className="w-full flex flex-col lg:flex-row justify-center content-center pt-6 lg:pt-10 my-10 px-7">
                   <div className="mx-auto lg:m-0 flex flex-col lg:flex-row justify-center content-center">
                     <img
                       src={activeLogo}
