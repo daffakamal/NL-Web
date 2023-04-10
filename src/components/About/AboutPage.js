@@ -124,7 +124,7 @@ const AboutPage = () => {
               loading="lazy"
             />
           </div>
-          <div className="px-7 smallest:px-12 sm:px-14 z-40 mx-auto">
+          <div className="px-7 smallest:px-12 sm:px-14 pb-40 z-40 mx-auto">
             <div className="max-w-[600px] md:max-w-[700px] lg:max-w-[840px] xl:max-w-[970px] 2xl:max-w-[1200px] mx-auto bg-pink-NL rounded-10xl py-11 md:py-14 xl:py-16 px-10 lg:px-12 xl:px-14 mt-0 shadow-custom shadow-grey">
               <h2 className="text-black-NL font-poppinsBold text-[28px] md:text-[35px] lg:text-[40px] mb-1">
                 #BeginToGain
@@ -139,7 +139,7 @@ const AboutPage = () => {
               </p>
             </div>
           </div>
-          <div className="py-10 mt-40 bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
+          <div className="bg-black-NL rounded-3xl md:rounded-3.5xl xl:rounded-5xl">
             <div className="px-7 smallest:px-12 sm:px-14">
               <h2 className="text-white text-[28px] md:text-[35px] lg:text-[40px] font-poppinsBold pt-[60px] lg:pt-[80px] xl:pt-[90px]">
                 Meet The Team
@@ -292,28 +292,30 @@ const AboutPage = () => {
                   <BoxProfile title={activeViceTitle} name={activeViceName} />
                 </div>
               </div>
-              <div className="flex flex-col xl:flex-row justify-center bg-pink-NL mt-32 rounded-3xl md:rounded-3.5xl xl:rounded-5xl py-28 px-7 smallest:px-12 sm:px-14 md:px-20 lg:px-[134px]">
-                <div className="w-full flex flex-col pb-[50px] sm:pb-[60px] md:pb-[70px] xl:pb-[70px] 2xl:pb-[59px] xl:mr-16 justify-center">
-                  <h2 className="font-poppinsBold text-white text-[25px] sm:text-[28px] md:text-[30px] lg:text-[31px] xl:text-start">
-                    Do you want to be a part of Night Login?
-                  </h2>
-                  <p className="font-poppinsMedium text-white text-[25px] sm:text-[28px] md:text-[30px] lg:text-[28px] xl:text-start pt-4">
-                    Wait for further information!
-                  </p>
+              <div className="relative flex flex-col justify-center bg-pink-NL mt-32 rounded-3xl md:rounded-3.5xl xl:rounded-5xl py-16 pt-[60px] lg:pt-[80px] xl:pt-[90px] px-7 smallest:px-12 sm:px-14 md:px-20 lg:px-[120px] xl:px-[134px]">
+                <div className="flex flex-col lg:flex-row items-center lg:gap-x-5 xl:gap-x-20 z-30 2xl:max-w-[1400px]">
+                  <div className="w-full my-auto lg:text-start pb-[50px] sm:pb-[60px] md:pb-[70px] xl:pb-[70px] 2xl:pb-[59px]">
+                    <h2 className="font-poppinsBold text-white text-[25px] xl:text-[30px] 2xl:text-[31px]">
+                      Do you want to be a part of Night Login?
+                    </h2>
+                    <p className="font-poppinsMedium text-white text-[25px] xl:text-[30px] 2xl:text-[28px] pt-4">
+                      Wait for further information!
+                    </p>
+                  </div>
+                  <img
+                    src={Drawkit}
+                    alt="Illustrasi"
+                    className="mx-auto max-w-none w-full smallest:max-w-[380px] lg:max-w-[360px] xl:max-w-[470px] 2xl:max-w-[500px]"
+                    loading="lazy"
+                  />
                 </div>
                 <img
-                  src={Drawkit}
-                  alt="Illustrasi"
-                  className="mx-auto w-3/5 lg:w-1/2 2xl:w-[42%]"
+                  src={HappyBunch}
+                  alt="Dekorasi"
+                  className="absolute z-10 -bottom-20 2xl:-bottom-24 left-0 hidden md:block w-44 lg:w-44 xl:w-48 2xl:w-56"
                   loading="lazy"
                 />
               </div>
-              <img
-                src={HappyBunch}
-                alt="Dekorasi"
-                className="-mt-[170px] lg:-mt-[190px] xl:-mt-[210px] 2xl:mt-[-17rem] w-40 lg:w-44 xl:w-48 2xl:w-64"
-                loading="lazy"
-              />
             </div>
           </div>
         </div>
